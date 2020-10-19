@@ -1,5 +1,7 @@
 # EBS-AI
 
+![EBS-AI](https://image.aladin.co.kr/product/25097/4/cover500/8954754074_1.jpg)
+
 수학과 함께하는 AI 기초 책 예제코드 활용 및 수학 개념 이해
 
 ## Overview
