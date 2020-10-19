@@ -23,3 +23,7 @@ https://www.ebssw.kr/info/intrcn/infoTchmtrHeaderView.do?tabType=006
 
 사실 소스 코드를 zip 파일로 압축시켜서 업로드 시켜놓을 줄은 몰랐기에 하나하나 연습해 보면서
 내 github에 올려본다.
+
+## Contents
+
+### [2-1 생활 데이터 표현하기](chapter2/1_life_data/)
