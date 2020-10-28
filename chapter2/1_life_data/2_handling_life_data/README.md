@@ -20,11 +20,12 @@ Review code and trouble shootings
 
 [2-1-07.py](2-1-07.py)
 
-주석도 그렇고 코드가 매우 가독성이 떨어진다. 그래서 아래 세가지 포인트로 리팩토링 한다.
+주석도 그렇고 코드가 매우 가독성이 떨어진다. 그래서 아래 네가지 포인트로 리팩토링 한다.
 
 - csv 파일 읽는 부분에서 i, j 사용으로 인한 가독성 해소 => day, hour 변수 이름 사용
 - enumerate 함수를 통해 요일과 시간 array의 index 확보 => 24, 7과 같은 magic number 배제
 - python 3.6 부터 사용 가능한 [f-string](https://www.python.org/dev/peps/pep-0498/?) 문법으로 직관적인 string formatting 문법 사용
+- 평균 값을 구한 후에 또 다시 for문을 돌려 출력하지 않고 평균 값을 구한 뒤 바로 출력, for문 두 번 돌리는 낭비를 방지함
 
 [2-1-07-sum_f-String.py](2-1-07-sum_f-String.py)
 
