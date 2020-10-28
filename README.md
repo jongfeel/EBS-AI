@@ -26,4 +26,4 @@ https://www.ebssw.kr/info/intrcn/infoTchmtrHeaderView.do?tabType=006
 
 ## Contents
 
-### [2-1 생활 데이터 표현하기](chapter2/1_life_data/)
+### [2-1 생활 데이터 표현하기](chapter2/1_life_data/1_presentation_life_data)
