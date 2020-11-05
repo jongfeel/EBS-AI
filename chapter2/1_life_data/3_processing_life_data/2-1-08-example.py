@@ -18,7 +18,7 @@ with open('passby_data.csv', 'r') as f :
 # -------------------------------------------------------------------------
 
 day_title = ['MON', 'TUE', 'WED', 'THR', 'FRI', 'SAT', 'SUN']     # 요일 제목
-hour_title = ['09', '10', '11', '12', '13', '14','15', '16', '17', '18', '19', '20','21']
+hour_title = ['09', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20','21']
 
 
 # 시간대별로 주간 평균값 구하기
@@ -28,8 +28,8 @@ for hour_index, hour_value in enumerate(hour_title) :                          #
     under30_day_sum = over40_day_sum = 0                                  # 시간대별 합을 구하기 위해 0으로 초기화
     # 각 시간대 주간 총합
     for day_index, day_value in enumerate(day_title) :                      # 일주일, 즉 7번 반복하기
-        under30_day_sum += int(a[day_index][hour_index]['ynum'])  # 요일별 + 시간대별 행인수 누적하기
-        over40_day_sum += int(a[day_index][hour_index]['num']) - int(a[day_index][hour_index]['ynum'])  # 전체 행인수에서 30대 이하를 빼면? 40세 이상 행인수
+        under30_day_sum += int(a[day_index][hour_index+8]['ynum'])  # 요일별 + 시간대별 행인수 누적하기
+        over40_day_sum += int(a[day_index][hour_index+8]['num']) - int(a[day_index][hour_index+8]['ynum'])  # 전체 행인수에서 30대 이하를 빼면? 40세 이상 행인수
 
     avgh_under30.append(under30_day_sum/7)                      # 시간대 30대 이하 행인수 평균 구하기
     avgh_over40.append(over40_day_sum/7)                      # 시간대 40세 이상 행인수 평균 구하기

@@ -31,7 +31,7 @@ Review code and trouble shootings
 
 오전 9시 부터 오후 9시의 경우는 hour_title array를 실제 '09' ~ '21'로 해주면 된다.
 왜냐하면 for문은 이 hour_title의 갯수만큼 돌게 enumrate 함수를 사용했기 떄문이다.
-단, 이건 내가 refactoring 한 코드의 경우 동작하기 때문에 기존 책의 예제에서 수정하려면 Range (0, 13)로 범위도 바꿔야 할 것이다.
+단, 이건 내가 refactoring 한 코드의 경우 동작하기 때문에 기존 책의 예제에서 수정하려면 Range (9, 21)로 범위도 바꿔야 할 것이다.
 
 ``` python
 hour_title = ['09', '10', '11', '12', '13', '14','15', '16', '17', '18', '19', '20','21']
