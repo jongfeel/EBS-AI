@@ -31,3 +31,7 @@ https://www.ebssw.kr/info/intrcn/infoTchmtrHeaderView.do?tabType=006
 - [01 생활 데이터 표현하기](chapter2/1_life_data/1_presentation_life_data)
 - [02 생활 데이터 다루기](chapter2/1_life_data/2_handling_life_data)
 - [03 생활 데이터 가공하기](chapter2/1_life_data/3_processing_life_data)
+
+### 2-2 이미지 데이터 처리하기
+
+- [01 이미지 데이터 표현하기](chapter2/2_process_image_data/1_presentation_image_data)
