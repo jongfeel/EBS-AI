@@ -36,3 +36,4 @@ https://www.ebssw.kr/info/intrcn/infoTchmtrHeaderView.do?tabType=006
 
 - [01 이미지 데이터 표현하기](chapter2/2_process_image_data/1_presentation_image_data)
 - [02 이미지 데이터 다루기](chapter2/2_process_image_data/2_handling_image_data)
+- [03 이미지 데이터 가공하기](chapter2/2_process_image_data/3_processing_image_data)
