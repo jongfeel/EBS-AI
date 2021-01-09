@@ -41,3 +41,4 @@ https://www.ebssw.kr/info/intrcn/infoTchmtrHeaderView.do?tabType=006
 ### 2-3 소리 데이터 처리하기
 
 - [01 소리 데이터 표현하기](chapter2/3_process_sound_data/1_presentation_sound_data)
+- [02 소리 데이터 다루기](chapter2/3_process_sound_data/2_handling_sound_data)
