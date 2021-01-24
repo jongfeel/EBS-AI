@@ -43,3 +43,7 @@ https://www.ebssw.kr/info/intrcn/infoTchmtrHeaderView.do?tabType=006
 - [01 소리 데이터 표현하기](chapter2/3_process_sound_data/1_presentation_sound_data)
 - [02 소리 데이터 다루기](chapter2/3_process_sound_data/2_handling_sound_data)
 - [03 소리 데이터 가공하기](chapter2/3_process_sound_data/3_processing_sound_data)
+
+### 3-1 내가 만약 축구팀 감독이라면
+
+- [01-04 데이터 수집하기, 불러오기, 다루기, 시각화하기](chapter3/1_soccer_team_manager/1to4_data_processing)
